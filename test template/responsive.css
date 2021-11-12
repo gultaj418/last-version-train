@@ -1,0 +1,772 @@
+@media only screen and (min-width: 1441px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #nav-main,
+  #navbar-train,
+  #sign-in {
+    display: none;
+  }
+  #nav-icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 841px) and (min-width: 300px) {
+  #navbar-img {
+    justify-content: center;
+  }
+
+  #nav-icon {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navbar-img {
+    width: 200px;
+    height: 70px;
+  }
+}
+
+/*--------------------Explore section responsiveness----------------*/
+
+@media only screen and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .explore-background {
+    left: calc(90% - 800px);
+    position: initial;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #train {
+    margin: 0;
+    margin-top: 80px;
+  }
+
+  .explore-content {
+    padding: 0;
+    padding-top: 40px;
+  }
+
+  #subtitle {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1998px) {
+  .explore-form {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .explore-form {
+    width: 80%;
+    height: 400px;
+    margin-left: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .schedule {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #schedule {
+    width: 400px;
+  }
+
+  #enter-station {
+    width: 100%;
+  }
+
+  #out,
+  #return {
+    width: 130px;
+  }
+
+  #input,
+  #where {
+    /* width: calc(100%-90px); */
+    width: 180px;
+  }
+
+  .explore-background {
+    width: 100%;
+  }
+
+  .options {
+    width: 90%;
+    margin-left: 0;
+    margin-left: 3%;
+  }
+
+  #options-bar {
+    margin-left: 0;
+  }
+
+  .add-passenger {
+    width: 350px;
+  }
+
+  .detailed-info {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  #add-passenger {
+    width: 100%;
+  }
+
+  #out #return {
+    margin-right: 0;
+  }
+
+  .avoid {
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 499px) {
+  #navbar-img {
+    width: 180px;
+  }
+
+  #nav-icon {
+    padding-left: 10%;
+  }
+
+  .nav-tools {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .explore-background {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  #train {
+    width: 100%;
+  }
+
+  .explore-form {
+    margin-left: 15px;
+    width: 90%;
+    padding-bottom: 55%;
+  }
+
+  .schedule {
+    width: 100%;
+    margin-left: 0;
+    height: 250px;
+  }
+  #input {
+    width: 150px;
+    /* margin-left: 5px; */
+  }
+
+  #where {
+    margin-right: 5px;
+    width: 150px;
+  }
+
+  #ticket {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .options {
+    width: 90%;
+    margin-left: 0;
+    margin-left: 3%;
+  }
+
+  #options-bar {
+    margin-left: 0;
+    padding-right: 10px;
+  }
+
+  .detailed-info {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  #add-passenger {
+    width: 100%;
+  }
+
+  #time-ticket-button {
+    width: 90%;
+  }
+
+  #interrelated-line-img {
+    margin-top: 5px;
+    margin-bottom: -10px;
+  }
+
+  .second-option-bar {
+    margin-top: 20px;
+  }
+
+  .avoid {
+    width: 50px;
+
+    /* padding-left: 30px;
+      padding-right: 30px; */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #avoid-span {
+  }
+
+  #enter-station {
+    width: 100px;
+    margin-right: 10px;
+  }
+  #green-tick {
+    padding-left: 30px;
+  }
+}
+
+/*------------------------------------------------------------------*/
+
+/*--------------------Discount board responsiveness-------------------------------*/
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+    /* height: 800px; */
+  }
+
+  #girl {
+    top: 10%;
+    right: 6%;
+  }
+
+  .info-pictures #train {
+    top: 18%;
+    right: 25%;
+  }
+
+  .circle-white {
+    top: 16%;
+    right: 20%;
+  }
+
+  .circle-lemon {
+    top: 64%;
+    right: 15%;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1099px) {
+  .board {
+    height: 800px;
+  }
+
+  #girl {
+    top: 36%;
+    right: 17%;
+  }
+
+  .info-pictures #train {
+    top: 52%;
+    right: 45%;
+  }
+
+  .circle-white {
+    top: 39%;
+    right: 38%;
+  }
+
+  .circle-lemon {
+    top: 67%;
+    right: 30%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+  .board {
+    height: 600px;
+  }
+
+  #girl {
+    width: 300px;
+    height: 200px;
+    top: 50%;
+  }
+
+  .circle-white {
+    top: 53%;
+    right: 33%;
+  }
+
+  .circle-lemon {
+    top: 71%;
+    right: 32%;
+  }
+  .circle-white,
+  .circle-lemon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info-pictures #train {
+    width: 200px;
+    top: 47%;
+    right: 42%;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 499px) {
+  #cta {
+    margin-top: 40px;
+    width: 200px;
+  }
+
+  .board {
+    height: 500px;
+  }
+
+  #girl {
+    width: 200px;
+    height: 200px;
+    top: 50%;
+  }
+
+  .circle-white {
+    top: 53%;
+    right: 33%;
+  }
+
+  .circle-lemon {
+    top: 74%;
+    right: 26%;
+  }
+  .circle-white,
+  .circle-lemon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info-pictures #train {
+    width: 150px;
+    top: 47%;
+    right: 39%;
+  }
+}
+
+/*--------------------------------------------------------------*/
+
+/*------------------------FAQ section responsivenss-----------------*/
+@media only screen and (max-width: 800px) {
+  .faq {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .faq-initial-card {
+    margin-bottom: 40px;
+  }
+
+  .faq-part {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+  #laptop {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 399px) {
+  #laptop {
+    width: 250px;
+  }
+}
+
+@media only scren and (min-width: 280px) and (max-width: 400px) {
+  .faq .faq-initial-card button {
+    width: 100%;
+  }
+}
+/*-----------------------------------------------------------------------*/
+
+/*------------------------App section responsiveness--------------------------------*/
+
+@media only screen and (max-width: 950px) {
+  .train-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-path {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .app-content {
+    margin-bottom: 20px;
+  }
+
+  #mobile {
+    width: 80%;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 560px) {
+  #apple,
+  #google {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 449px) {
+  #apple,
+  #google {
+    width: 120px;
+  }
+
+  #mobile {
+    width: 200px;
+    height: 200px;
+  }
+  .faq .faq-initial-card button {
+    width: 100%;
+  }
+}
+
+/*----------------------------------------------------------------------*/
+
+/*--------------------------Review section responsivenes------------------*/
+
+@media only screen and (min-width: 1350px) and (max-width: 1620px) {
+  .punct {
+    right: 20%;
+  }
+  .review .review-card {
+    width: 15%;
+  }
+
+  .right-left-click {
+    right: 12%;
+  }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1350px) {
+  .punct {
+    right: 30%;
+  }
+  .review .review-card {
+    width: 20%;
+  }
+
+  .right-left-click {
+    right: 2%;
+  }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1300px) {
+  .right-left-click {
+    top: 0%;
+    right: 0%;
+  }
+
+  .review .review-card {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+  .review {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .review .review-content {
+    width: 60%;
+  }
+
+  .review .review-card {
+    width: 30%;
+  }
+
+  .right-left-click {
+    display: flex;
+    justify-content: center;
+    top: 36%;
+    left: 40%;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+  .punct {
+    right: 35%;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1100px) {
+  .right-left-click {
+    left: 80%;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
+  #review-btn {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+  .punct {
+    right: 24%;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+  #review-btn {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 700px) {
+  .right-left-click {
+    top: 33%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 650px) {
+  .review .review-content h4 {
+    margin-top: 60px;
+  }
+
+  .review .review-content {
+    margin-left: 20%;
+  }
+
+  #review-btn {
+    width: 70%;
+    margin-left: -20%;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  #review-btn {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 650px) {
+  .review {
+    flex-flow: column wrap;
+  }
+  .review .review-card {
+    width: 52.29%;
+    margin-left: 20%;
+  }
+  .review {
+    background-color: #00a88f;
+  }
+
+  .review-first {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 650px) {
+  #review-btn {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 650px) {
+  .right-left-click {
+    top: 30%;
+  }
+  #review-btn {
+    margin-left: 5%;
+    width: 80%;
+  }
+  .review .review-first {
+    margin-top: 100px;
+  }
+  .punct {
+    right: 35%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .punct {
+    right: 40%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .right-left-click {
+    top: 31%;
+    right: 27%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .review .review-card {
+    width: 70%;
+  }
+
+  .review-first {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 550px) {
+  .right-left-click {
+    top: 33%;
+    right: 13%;
+  }
+}
+
+@media only screen and (min-width: 279px) and (max-width: 550px) {
+  .review {
+    background-color: #00a88f;
+  }
+
+  #review-btn {
+    width: 100%;
+    margin-top: 85%;
+    margin-left: -4%;
+  }
+  .review-first {
+    margin-left: 0;
+  }
+
+  .review .review-card {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .review {
+    flex-flow: column wrap;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  .punct {
+    right: 28%;
+  }
+
+  .right-left-click {
+    top: 30%;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+  .punct {
+    right: 20%;
+  }
+
+  .right-left-click {
+    top: 33%;
+    right: 30%;
+  }
+
+  #review-btn {
+    width: 200%;
+    margin-left: 5%;
+  }
+
+  .review .review-first {
+    margin-top: 40%;
+  }
+}
+
+/*----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+  .social-account {
+    margin-left: 20px;
+  }
+
+  .first-footer {
+    flex-wrap: wrap;
+  }
+
+  .first-column {
+    width: 50%;
+  }
+
+  .second-column {
+    width: 30%;
+    padding-left: 20%;
+  }
+
+  .third-column {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .social-account {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .first-footer {
+    flex-wrap: wrap;
+  }
+
+  .first-column {
+    width: 100%;
+    padding-left: 20%;
+  }
+
+  .second-column {
+    width: 80%;
+    padding-left: 20%;
+  }
+
+  .third-column {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 5%;
+  }
+
+  .first-footer .first-column img {
+    width: 240px;
+    margin-left: -40px;
+  }
+
+  .second-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .second-footer p {
+    padding-right: 20px;
+  }
+}
